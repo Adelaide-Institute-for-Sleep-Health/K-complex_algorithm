@@ -18,7 +18,7 @@ The algorithm was developed in Python 3.7 and requires the following dependencie
 Pytorch and Gpytorch needs to be installed with the mentionned version (newer version will not work).
 
 ### First steps
-After installing the dependencies, download the code and unzip it. The two examples on how to run the algorithm are named Tutorial1.py and Tutorial2.py. Before running the second tutorial, please download the 1st subject from the ["Learn" datasets](https://sleepdata.org/datasets/learn/files/polysomnography) from the National Sleep Research Ressources.
+After installing the dependencies, download the code and unzip it. The two examples on how to run the algorithm are named Tutorial1.py and Tutorial2.py. Before running the second tutorial, please download nsrr01 from ["Learn" datasets](https://sleepdata.org/datasets/learn/files/polysomnography) from the National Sleep Research Ressources.
 
 ### Citation
 
