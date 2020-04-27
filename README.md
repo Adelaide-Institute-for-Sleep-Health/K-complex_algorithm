@@ -4,19 +4,20 @@ K-complexes are prominent features of sleep electroencephalography and could be 
 
 ## Getting Started
 
+### Prerequisites
 The algorithm was developed in python 3.7 and requires the following dependencies (Version):
 
 - MNE (0.20)
 - Pywavelets (1.0.3)
 - Pytorch (torch = 1.1.0, torchvision = 0.2.2)
 - Gpytorch (0.3.4)
-- scikit-learn 0.22.2
+- scikit-learn (0.22.2)
+- Matplotlib (3.2.1) only for plotting functions
 
 Pytorch and Gpytorch needs to be installed with the mentionned version (newer version will not work).
 
-Furthermore, some plotting function will require matplotlib to be installed.
-
-### Prerequisites
+### First steps
+Once the dependencies are installed, download this repository
 
 ### Citation
 
