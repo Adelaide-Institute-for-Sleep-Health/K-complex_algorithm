@@ -12,8 +12,8 @@ import numpy as np
 
 import joblib
 import os
-from sleepAnalysis.utils import EpochData
-from sleepAnalysis.utils import findN2peaks
+from KC_algorithm.utils import EpochData
+from KC_algorithm.utils import findN2peaks
 import warnings
 warnings.filterwarnings('ignore')
 
