@@ -9,7 +9,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from sleepAnalysis.utils import EpochData
+from KC_algorithm.utils import EpochData
 from mne.stats.parametric import _parametric_ci
 
 def KC_from_probas(C3,onsets,probas,Fs):
