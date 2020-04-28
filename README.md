@@ -18,7 +18,13 @@ The algorithm was developed in Python 3.7 and requires the following dependencie
 Pytorch and Gpytorch needs to be installed with the mentionned version (newer version will not work).
 
 ### First steps
-After installing the dependencies, download the code and unzip it. The two examples on how to run the algorithm are named Tutorial1.py and Tutorial2.py. Before running the second tutorial, please download nsrr01 from ["Learn" datasets](https://sleepdata.org/datasets/learn/files/polysomnography) from the National Sleep Research Ressources.
+After installing the dependencies, download the code and unzip it. 
+
+Tutorial1.py: run K-complex detection on an EDF file from PhysioNet
+Data is contained within the [MNE-python](https://mne.tools/stable/index.html) package.
+
+Tutorial2.py: run K-complex detection on an learn_nsrr01.edf from the [National Sleep Researsh Ressources](https://sleepdata.org/datasets/learn/files/polysomnography)
+Download the .edf and .xml file and placed them in a folder named "data" before executing Tutorial2.py
 
 ### Citation
 
