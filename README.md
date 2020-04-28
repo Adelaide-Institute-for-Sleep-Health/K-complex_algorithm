@@ -23,7 +23,7 @@ After installing the dependencies, download the code and unzip it.
 Tutorial1.py: run K-complex detection on an EDF file from PhysioNet
 Data is contained within the [MNE-python](https://mne.tools/stable/index.html) package.
 
-Tutorial2.py: run K-complex detection on an learn_nsrr01.edf from the [National Sleep Researsh Ressources](https://sleepdata.org/datasets/learn/files/polysomnography)
+Tutorial2.py: run K-complex detection on learn_nsrr01.edf from the [National Sleep Researsh Ressources](https://sleepdata.org/datasets/learn/files/polysomnography)
 Download the .edf and .xml file and placed them in a folder named "data" before executing Tutorial2.py
 
 ### Citation
