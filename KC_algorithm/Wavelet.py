@@ -8,7 +8,7 @@
 
 import pywt
 import numpy as np
-from sleepAnalysis.utils import nextpow2, pad_nextpow2
+from KC_algorithm.utils import nextpow2, pad_nextpow2
 
 class wave:
     """
