@@ -14,6 +14,7 @@ import joblib
 import os
 from KC_algorithm.utils import EpochData
 from KC_algorithm.utils import findN2peaks
+from KC_algorithm.Wavelet import wave
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -146,7 +147,7 @@ def score_KCs(C3, Fs, Stages,sleep_stages = [2,3]):
     assert len(peaks)==len(stage_peaks)
     d = EpochData(peaks, C3, post_peak, pre_peak, Fs)
 
-    from sleepAnalysis.Wavelet import wave
+    
 
     s = [0, 1, 2, 3, 4]
     wavelet = 'sym3'
